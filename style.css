@@ -65,3 +65,24 @@ p {
   user-select: none;
   
 }
+
+@media (max-width: 768px) {
+  .paper {
+    padding: 10px 50px;
+    transform: rotateZ(-3deg);
+  }
+
+  .paper.heart {
+    width: 150px;
+    height: 150px;
+  }
+
+  img {
+    max-height: 150px;
+    width: 100%;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}
